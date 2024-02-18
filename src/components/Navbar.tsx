@@ -18,9 +18,9 @@ export default function Navbar() {
         <NavbarDropdown paths={PATHS} />
         <Link href="/">
           <div className="flex items-center gap-2">
-            <Image src={logo} className="h-8 w-8 rounded-full md:h-10 md:w-10" alt="Reindeer Logo" />
+            <Image src={logo} className="h-8 w-8 rounded-full md:h-10 md:w-10" alt="Uivar Logo" />
             <h1 className="text-lg font-bold text-slate-300 transition-all duration-300 hover:text-slate-200 md:text-xl">
-              Reindeer
+            Uivar
             </h1>
           </div>
         </Link>
