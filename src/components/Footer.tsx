@@ -27,15 +27,15 @@ export default function Footer({ commitSha }: { commitSha?: string }) {
       <div className="flex w-full max-w-5xl flex-col gap-6 px-4 text-left lg:flex-row lg:gap-0">
         <div className="flex flex-col lg:min-w-max">
           <div className="mb-4 flex items-center gap-2">
-            <Image src={logo} className="h-12 w-12 rounded-full" alt="Reindeer Logo" />
-            <h1 className="text-2xl font-bold text-slate-300">Reindeer</h1>
+            <Image src={logo} className="h-12 w-12 rounded-full" alt="Uivar Logo" />
+            <h1 className="text-2xl font-bold text-slate-300">Uivar Music</h1>
           </div>
-          <p className="mb-1 whitespace-pre-line">Reindeer is not endorsed nor affiliated with Discord, Inc.</p>
+          <p className="mb-1 whitespace-pre-line">Uivar is not endorsed nor affiliated with Discord, Inc.</p>
           <div className="flex gap-3">
             <span>© {new Date().getFullYear()} Blue Shark River</span>
             {commitSha ? (
               <a
-                href={`https://github.com/GodderE2D/reindeer-web/commit/${commitSha}`}
+                href={`https://github.com/GodderE2D/Uivar-web/commit/${commitSha}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded bg-slate-800 px-1 pt-[2px] text-sm text-blue-500 hover:underline"
@@ -46,7 +46,7 @@ export default function Footer({ commitSha }: { commitSha?: string }) {
               ""
             )}
             <a
-              href="https://github.com/GodderE2D/reindeer-web"
+              href="https://github.com/GodderE2D/Uivar-web"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-1 underline"
